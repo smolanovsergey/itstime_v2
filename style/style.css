@@ -1,0 +1,433 @@
+body {
+    padding: 0;
+    margin: 0;
+	background-image: url(../images/bg-light-4868.png);
+    background-repeat: repeat;
+    height: 100vh;
+}
+a:visited {
+    text-decoration: none;
+    color: #646666;
+}
+.absolute_pos {
+    position: absolute;
+}
+.inherit_pos{
+    position: inherit;
+}
+#logo {
+    width: 100%;
+    text-align: center;
+}
+#logo img{
+    width: 160px;
+    height: auto;
+    margin: 30px auto 30px auto;
+    text-align: center;
+}
+.menu ul li{
+    display: inline;
+    font-size: 34px;
+    font-family: TimeC;
+    color: #646666;
+    padding: 0 53px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.menu li:hover{
+    color: red;
+}
+.menu ul {
+    margin: 0 auto;
+    text-align: center;
+}
+h1 {
+    font-size: 77px;
+    font-family: TimeC;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 40px auto -70px auto;
+    color: #646666;
+}
+.navigation{
+    width: 100%;
+    font-size: 18px;
+    font-family: TimeC;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    float: left;
+    justify-content: center;
+    margin: 10px 0;   
+}
+.navigation div{
+    margin: 0 30px;
+    color: red;
+    text-decoration: underline;
+    cursor: pointer;
+    float: left;
+}
+.navigation div:hover{
+    color: #646666;
+}
+.navigation div{
+    display: none;
+}
+#contacts {
+    position: fixed;
+    width: 100%;
+    height: auto;
+    z-index: 99999;
+    display: none;
+}
+.contacts {
+    width: 550px;
+    text-align: center;
+    background-color: rgba(100,102,102,0.8);
+    padding: 70px;
+    border-radius: 30px;
+    z-index: 99999;
+    margin: auto;
+    position: relative;
+}
+.contacts p {
+    color: white;
+    font-family: TimeC;
+    font-size: 30px;
+}
+.contacts img {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 0px;
+    top: 30px;
+    cursor: pointer;
+} 
+.container {
+    margin: auto;
+    max-width: 1600px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+    justify-content: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+	align-items: center;
+    transition: 0.8s;
+}
+.container span{
+    margin-top: 100px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+    justify-content: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+	align-items: center;
+}
+.container span img{
+    margin: auto;
+    width: 389px;
+}
+.container div {
+    max-width: 390px;
+    height: auto;
+    cursor: pointer;
+    margin: 0 5px;
+}
+#footer {
+    bottom: 0px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    vertical-align: bottom;
+    position: absolute;
+}
+#footer p, img{
+    margin: 0 50px;
+}
+.container p{
+    margin-top: -95px;
+    text-align: center;
+    font-family: TimeC;
+    color: white;
+    font-size: 34px;
+    filter: grayscale(0%);
+    transition: 2s;
+}
+.container img{
+    filter: grayscale(100%);
+    transition: 1s;
+}
+#footer {
+    display: block;
+    text-align: center;
+}
+#footer div,p{
+    margin: 10px;
+    line-height: 80px;
+    text-align: center;
+    font-family: TimeC;
+    font-size: 20px;
+    color: #646666;
+    line-height: 40px;
+    text-align: center;
+}
+#footer span span{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+
+}
+.facebook {
+    background-image: url("../images/facebook.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    display: block;
+    text-align: center;
+    margin: 0px 10px;
+    transition: 0.5s;
+}
+.facebook:hover {
+    background-image: url("../images/facebook_active.svg");
+}
+.instagram:hover {
+    background-image: url("../images/instagram_active.svg");
+}
+.instagram {
+    background-image: url("../images/instagram.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    display: block;
+    text-align: center;
+    margin: 0px 10px;
+    transition: 0.5s;
+}
+#footer .footer_span_right img{
+    cursor: pointer;
+}
+.item-2_1, .item-2_2, .item-3_2, .item-4_2, .item-5_2{
+    background-image: url(../images/ramka.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 306px;
+    height: 336px;
+    background-size: cover;
+    margin: 5px;
+    overflow: visible;
+}
+.item-2_1 {
+    margin-top: 0px;
+}
+.item-2_2 {
+    margin-top: 67px;
+}
+.item-3_2{
+    margin-top: 143px;
+}
+.item-4_2{
+    margin-top: 65px;
+}
+.item-5_2{
+    margin-top: 121px;
+}
+.serials {
+    display: none;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 50px;
+    text-align: center;
+}
+.serials p{
+    font-family: TimeC;
+    font-size: 77px;
+    color: #646666;
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin: 60px 0;
+}
+.serials img{
+    margin: 30px;
+    cursor: pointer;
+    -webkit-transform: scale(1,1);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 550ms;
+    -moz-transform: scale(1,1);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 550ms;
+}
+.serials .scale_img:hover {
+    -webkit-transform: scale(1.2,1.2);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 550ms;
+    -moz-transform: scale(1.2,1.2);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 550ms;
+}
+.container_serials {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    left: 0px;
+    top: 0px;
+    z-index: 1000;
+}
+.serials span .wrapper {
+    margin: 2% 20%;
+    padding: 30px;
+    text-align: center;
+    background-color: rgba(100,102,102,0.8);
+    border-radius: 30px;
+}
+#cancel {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    width: 40px;
+    height: 40px;
+    z-index: 100000;
+    margin-top: 2%;
+    margin-right: 20%;
+}
+.serials span .wrapper img {
+    width: 500px;
+    height: auto;
+}
+.button_zakaz,.button_zakaz_send {
+    margin: 20px auto;
+    display: block;
+    background-color: red;
+    border-radius: 30px;
+    width: 300px;
+    height: 60px;
+    font-family: TimeC;
+    font-size: 30px;
+    line-height: 60px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.button_zakaz:hover {
+    background-color: white;
+    color: red;
+}
+.wrapper p{
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    margin: 20px 0px 5px 30px;
+}
+.container_serials .wrapper .flex {
+    margin: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.serials span .wrapper input{
+    width: 200px;
+    height: 100px;
+    margin: 0px 0px 20px 30px;
+    text-align: center;
+    border-radius: 30px;
+    font-family: TimeC;
+    font-size: 60px;
+    display: block;
+}
+#radio_block input{
+    height: 40px;
+    width: 40px;
+    float: left;
+    margin: 0 20px;
+}
+.korzina {
+    width: 60%;
+    height: auto;
+    left: 0px;
+    top: 0px;
+    z-index: 1000;
+    position: absolute;
+    display: none;
+    margin: 2% 20%;
+    padding: 30px;
+    text-align: center;
+    background-color: rgba(100,102,102,0.8);
+    border-radius: 30px;
+}
+.korzina .cancel {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    width: 40px;
+    height: 40px;
+    z-index: 100000;
+    margin-top: 0%;
+    margin-right: 0%;
+    cursor: pointer;
+}
+.korzina p{
+    display: block;
+    width: 100%;
+    height: auto;
+    color: white;
+}
+.korzina p img{
+    max-width: 20%;
+}
+.added{
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    transition: 1.5s;
+    z-index: 10000;
+    top: 0px;
+    left: 0px;
+    margin-top: 150px;
+}
+.added p{
+    width: 300px;
+    height: 150px;
+    color: white;
+    background-color: rgba(255,0,0,0.8);
+    margin: auto;
+    border-radius: 25px;
+    line-height: 150px;
+    z-index: 10000;
+    margin: auto;
+    text-align: center;
+}
+#e-mail,#phone {
+    height: 50px;
+    width: 450px;
+    float: left;
+    margin: 0 20px;
+    font-size: 30px;
+    line-height: 50px;
+    text-align: center;
+}
+.contacts_zakaz {
+    display: inline-block;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
